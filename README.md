@@ -247,5 +247,5 @@ knitr::include_graphics("C:/Users/sokol/Desktop/randomiz_vis_combined/2_combined
 Note: I added this image separately to make .MD document
 <img src="2_combined_image.png" width="7560" />
 
-Note, each plate is visualized multiple times with regards on how we
+Note, each plate is visualized multiple times with regards to how we
 specified: column_numbers_vis = c(2,7,3,4,5)
