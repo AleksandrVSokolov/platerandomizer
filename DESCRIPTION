@@ -1,0 +1,17 @@
+Package: platerandomizer
+Type: Package
+Title: A package to randomize samples on well plates
+Version: 0.1.0
+Author: Aleksandr V. Sokolov
+Maintainer: Aleksandr V. Sokolov. <sokol906@gmail.com>
+Description: A package to randomize samples on well plates for various purposes. Randomization could be fine-tuned and consideres a confounder and the study of origin. Allows viewing randomization based on variables. 
+License: MIT
+Imports: grid,
+    gridExtra,
+    openxlsx,
+    gtable,
+    stringi,
+    dplyr
+Encoding: UTF-8
+RoxygenNote: 7.2.3
+
