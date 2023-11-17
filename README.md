@@ -53,7 +53,7 @@ platerandomizer::generate_well_plate_template(plate_type = "96w", reserve_last_c
     ## H "1H" "2H" "3H" "4H" "5H" "6H" "7H" "8H" "9H" "10H" "11H" NA
 
 We have an example dataset containing several studies in one file.
-Includes information on some phenotypes, IDs, as well as the study of
+It includes information on some phenotypes, IDs, as well as the study of
 origin
 
 ``` r
