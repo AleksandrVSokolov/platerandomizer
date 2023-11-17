@@ -1,10 +1,10 @@
 ## platerandomizer package
 
--   This R package is designed to simplify generating of randomization
+-   This R package is designed to simplify generating randomizations
     of samples across different plate formats used in life sciences
 -   The sample randomization across plates may be useful for any
     analyses sensitive to batch effect (such as OLINK)
--   This package takes into account the confounding of specified
+-   This package takes into account the confounding of thr specified
     variable and tries to allocate samples on the same plate
 -   Functions also support randomization of multiple studies at the same
     time (if space is a constraint). In this setting, package will try
