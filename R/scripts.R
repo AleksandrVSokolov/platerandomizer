@@ -566,7 +566,7 @@ plate_layout_randomizer = function(df_all_studies,
 #' @param plate_template A matrix where each cell has a character name, and rows and columns are named. Cells with NA will be skipped
 #' @param randomiz_number Number of randomizations to perform (default is 10)
 #' @param main_dir The path to main directory for raw figures and excel files (default: "randomiz_vis")
-#' @param main_dir The path to directory for combined images (default: "randomiz_vis_combined_img")
+#' @param dir_combined_img The path to directory for combined images (default: "randomiz_vis_combined_img")
 #' @examples
 #'
 #' data("example_data")
