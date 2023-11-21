@@ -1,16 +1,15 @@
 ## platerandomizer package
 
--   This R package is designed to simplify generating randomizations
-    of samples across different plate formats used in life sciences
--   The sample randomization across plates may be useful for any
-    analyses sensitive to batch effect (such as OLINK)
--   This package takes into account the confounding of thr specified
-    variable and tries to allocate samples on the same plate
--   Functions also support randomization of multiple studies at the same
-    time (if space is a constraint). In this setting, package will try
-    to allocate samples from the same study on one plate
--   Package also provides visualization for randomizations and allows
-    visualizing of distribution for any variable on the plates
+
+Are you conducting an experiment with a multiplex array (e.g., OLINK) and attempting to randomly allocate samples across plates? It can be a challenging task, especially if randomization should not be entirely "random" and needs to include certain conditions, such as placing specific groups of samples on the same plate. The R package "platerandomizer" not only assists you with the randomization process but also enables you to visualize the layout and generate layouts in two possible formats for further use. It supports common types of well plates (24, 48, 96, 384) as well as custom plates.
+
+Key properties:
+
+- This R package is designed to simplify the generation of randomizations of samples across different plate formats used in life sciences.
+- Randomizing samples across plates may be useful for analyses sensitive to batch effects (such as OLINK).
+- This package takes into account the confounding of the specified variable and attempts to allocate samples on the same plate.
+- Package functions support the randomization of multiple studies simultaneously (if space is a constraint). In this setting, the package will try to allocate samples from the same study on one plate.
+- The package also provides visualizations for randomizations and allows visualization of the distribution for any variable on the plates, as well as visualization based on the variable threshold values.
 
 ``` r
 # Installing the package
